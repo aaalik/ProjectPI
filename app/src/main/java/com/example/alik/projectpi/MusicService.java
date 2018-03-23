@@ -16,7 +16,8 @@ public class MusicService extends Service {
         super.onCreate();
         player = MediaPlayer.create(this, R.raw.coba1);
         player.setLooping(true); // Set looping
-        player.setVolume(100,100);
+        float vlm = (float) 0.3;
+        player.setVolume(vlm,vlm); // set volume float value
     }
     public int onStartCommand(Intent intent, int flags, int startId) {
         player.start();

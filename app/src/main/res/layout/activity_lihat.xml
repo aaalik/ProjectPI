@@ -3,27 +3,24 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@drawable/background1">
 
     <LinearLayout
         android:id="@+id/lin_2"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:background="#FFFFFF">
+        android:layout_height="250dp">
         <pl.droidsonroids.gif.GifImageView
             android:id="@+id/imgview_lht"
             android:layout_centerHorizontal="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
             />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/lin_2"
-        android:background="#FFFFFF">
+        android:layout_below="@+id/lin_2">
         <GridView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
